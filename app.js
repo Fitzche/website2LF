@@ -95,7 +95,7 @@ function init(data) {
                     parent: titleContainer.body,
                     src: `./img/${title}.png`,
                 }).body.addEventListener("error", function () {
-                    this.src = "./img/not-found.png";
+                    this.src = "./img/LG.png";
                 });
 
                 new HTMLElement({ tag: "span", text: handleColors(title), parent: titleContainer.body });
