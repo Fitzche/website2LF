@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>page</title>
+    </head>
+    <body>
+        <div id="header">
+            <div id="head-line">
+                <div id="page-title">
+                    <img src="./img/LG.png" alt="Loup-garou" id="icon" />
+                    <span>Lupus Fabulae</span>
+                </div>
+                <div id="research" style="display: none">
+                    <input type="text" id="search-input" placeholder="Rechercher..." />
+                    <button id="search-button">
+                        <img src="./img/search-icon.png" alt="" />
+                    </button>
+                </div>
+            </div>
+            <div id="menubar">
+                <div class="selected">Introduction</div>
+                <div>Documentation</div>
+                <div>Crédits</div>
+            </div>
+        </div>
+        <div id="main-container">
+            <div id="sidebar" style="display: none"></div>
+            <div id="main-content">
+                <h2 id="Thema-title">Introduction</h2>
+                <h4 id="Category-title" style="display: none"></h4>
+                <div id="text-content"></div>
+            </div>
+        </div>
+        <div id="search-menu" style="display: none"></div>
+
+        <script src="./data.js"></script>
+        <script src="./app.js"></script>
+    </body>
+</html>
